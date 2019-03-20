@@ -10,7 +10,9 @@ storiesOf('Components|Button', module)
   .add('contained', () => 
     <Button variant="contained" color="primary">
       Sign Up On Meetup
-    </Button>)
+    </Button>,
+    { notes: 'A very simple component' }
+  )
   .add('outlined', () => (
     <Button variant="outlined" color="primary">
      Sign Up On Meetup
