@@ -1,28 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Button from '@material-ui/core/Button'
-import Typography from '@material-ui/core/Typography'
-import CalendarToday from '@material-ui/icons/CalendarToday'
+import HomePage from './pages/HomePage'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
 
-        <Typography variant="h3" gutterBottom>
-          About the Event
-        </Typography>
-
-        <Typography variant="body1" gutterBottom>
-          The upcoming 11th annual Vermont Code Camp will be held on Saturday, September 28, 2019 in Burlington, Vermont.
-        </Typography>
-
-
-        <Button variant="contained" color="primary">
-          Sign Up On Meetup
-        </Button>
-
-        <CalendarToday />
+        <HomePage />
       </div>
     );
   }
