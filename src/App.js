@@ -1,31 +1,36 @@
 import React, { Component } from 'react';
 import './App.css';
 import HomePage from './pages/HomePage'
-import ReactMarkdown from 'react-markdown';
-import ConductDocumentPath from './documents/conduct.md'
+import ConductPage from './pages/ConductPage'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 
 class App extends Component {
-  constructor(props) {
-    super(props)
 
-    this.state = { terms: null }
-  }
-
-  componentWillMount() {
-    fetch(ConductDocumentPath)
-      .then((response) => response.text())
-      .then((text) => {this.setState({ conduct: text })
-    })
-  }
 
   render() {
     return (
       <div className="App">
 
-        <HomePage />
+      <Router>
+        <div>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/conduct/">Conduct</Link>
+              </li>
+            </ul>
+          </nav>
 
-        <ReactMarkdown source={this.state.conduct} />
+          <Route path="/" exact component={HomePage} />
+          <Route path="/conduct/" component={ConductPage} />
+        </div>
+      </Router>
 
+ 
       </div>
     );
   }
