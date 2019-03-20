@@ -12,7 +12,7 @@ npm install @material-ui/icons
 
 * Component Library
   * [Material-UI](https://github.com/mui-org/material-ui)
-
+  * [React-Markdown](https://github.com/rexxars/react-markdown)
 
 ## Available Scripts
 
@@ -80,3 +80,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Resources
+
+* [How do I load a markdown file into a react component?](https://stackoverflow.com/a/51003410/1366033)
+* [Material Icons](https://material.io/tools/icons/?style=baseline)

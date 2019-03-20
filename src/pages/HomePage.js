@@ -6,6 +6,8 @@ import PlaceIcon from '@material-ui/icons/Place'
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
+import { withStyles } from '@material-ui/core/styles';
+
 class HomePage extends Component {
     render() {
         return (
@@ -33,7 +35,7 @@ class HomePage extends Component {
                             Sign Up On Meetup
                         </Button>
 
-                        <Typography variant="h5" display="flex" alignItems="center">
+                        <Typography variant="h5" >
                             <EventIcon /> When
                         </Typography>
                         <Typography variant="body1" gutterBottom>
