@@ -36,12 +36,23 @@ class App extends Component {
               <li>
                 <Link to="/conduct/">Conduct</Link>
               </li>
+              <li>
+                <Link to="/diversity/">Diversity</Link>
+              </li>
+              <li>
+                <Link to="/parking/">Parking</Link>
+              </li>
+              <li>
+                <Link to="/sponsor/">Sponsor</Link>
+              </li>
             </ul>
           </nav>
 
           <Route path="/" exact component={HomePage} />
-          <Route path="/conduct/" component={MarkdownRouter} />
-
+          <Route path="/conduct/" render={(props) => <MarkdownRouter {...props} page='conduct' />} />
+          <Route path="/diversity/" render={(props) => <MarkdownRouter {...props} page='diversity' />} />
+          <Route path="/parking/" render={(props) => <MarkdownRouter {...props} page='parking' />} />
+          <Route path="/sponsor/" render={(props) => <MarkdownRouter {...props} page='sponsor' />} />
           </main>
 
           <SiteFooter />

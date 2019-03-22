@@ -94,6 +94,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * [Typography Markdown support?](https://github.com/mui-org/material-ui/issues/12290#issuecomment-453930042)
 * [Markdown Blog example](https://github.com/mui-org/material-ui/blob/v3.9.2/docs/src/pages/getting-started/page-layout-examples/blog/Markdown.js)
 * [React Markdown Renderers](https://github.com/rexxars/react-markdown/issues/82#issuecomment-316110533)
+* [Pass props to a component rendered by React Router](https://tylermcginnis.com/react-router-pass-props-to-components/)
 
 ## Todo
 
