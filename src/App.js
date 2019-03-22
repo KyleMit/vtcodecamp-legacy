@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 import HomePage from './pages/HomePage'
-import ConductPage from './pages/ConductPage'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import SiteNavBar from './components/SiteNavBar';
+import SiteFooter from './components/SiteFooter';
+import { withStyles } from '@material-ui/core';
 
+
+const styles = theme => ({ 
+  content: {
+    marginTop: `${theme.spacing.unit * 8}px`,
+  },
+});
 
 class App extends Component {
 
@@ -13,7 +21,12 @@ class App extends Component {
       <div className="App">
 
       <Router>
-        <div>
+        <SiteNavBar />
+
+        <main className={this.props.classes.content}>
+
+        
+
           <nav>
             <ul>
               <li>
@@ -26,8 +39,11 @@ class App extends Component {
           </nav>
 
           <Route path="/" exact component={HomePage} />
-          <Route path="/conduct/" component={ConductPage} />
-        </div>
+          <Route path="/conduct/" component={MarkdownRouter} />
+
+          </main>
+
+          <SiteFooter />
       </Router>
 
  
@@ -36,4 +52,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withStyles(styles)(App);

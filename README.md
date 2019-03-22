@@ -85,3 +85,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 * [How do I load a markdown file into a react component?](https://stackoverflow.com/a/51003410/1366033)
 * [Material Icons](https://material.io/tools/icons/?style=baseline)
+* [Props are Read-Only](https://reactjs.org/docs/components-and-props.html#props-are-read-only)
+* [Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+* [Add state and lifecycle methods to Function Components with React Hooks](https://itnext.io/add-state-and-lifecycle-methods-to-function-components-with-react-hooks-8e2bdc44d43d)
+* [Including external .md files](https://github.com/rexxars/react-markdown/issues/76#issuecomment-303042418)
+* [Reference image in a markdown file](https://github.com/facebook/create-react-app/issues/595#issuecomment-322766448)
+* [React - How to export a pure stateless component](https://stackoverflow.com/a/44710987/1366033)
+
+## Todo
+
+* [ ] Add yellow / blue custom theme colors
+* [ ] Separate out routes
+* [ ] Add fixed footer
+* [ ] Add full width navbar
+* [ ] Add all documents - render paths based on name
+* [ ] Style generated markdown with Material UI themes
