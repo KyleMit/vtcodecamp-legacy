@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import SiteNavBar from './components/SiteNavBar';
 import SiteFooter from './components/SiteFooter';
 import { withStyles } from '@material-ui/core';
+import MarkdownRouter from "./pages/MarkdownRouter";
 
 
 const styles = theme => ({ 

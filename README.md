@@ -91,6 +91,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * [Including external .md files](https://github.com/rexxars/react-markdown/issues/76#issuecomment-303042418)
 * [Reference image in a markdown file](https://github.com/facebook/create-react-app/issues/595#issuecomment-322766448)
 * [React - How to export a pure stateless component](https://stackoverflow.com/a/44710987/1366033)
+* [Typography Markdown support?](https://github.com/mui-org/material-ui/issues/12290#issuecomment-453930042)
+* [Markdown Blog example](https://github.com/mui-org/material-ui/blob/v3.9.2/docs/src/pages/getting-started/page-layout-examples/blog/Markdown.js)
+* [React Markdown Renderers](https://github.com/rexxars/react-markdown/issues/82#issuecomment-316110533)
 
 ## Todo
 
