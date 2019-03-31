@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
+import SiteHead from './components/SiteHead';
 import SiteNavBar from './components/SiteNavBar';
 import SiteFooter from './components/SiteFooter';
 import { withStyles } from '@material-ui/core';
@@ -30,6 +31,7 @@ class App extends Component {
     return (
       <div id="app" className={this.props.classes.app}>
         <CssBaseline />
+        <SiteHead />
         <Router>
 
           <SiteNavBar />

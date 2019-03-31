@@ -10,13 +10,13 @@
 
 ## Framworks, Libraries & Tools
 
-* Project bootstrapped using [**Create React App**](https://facebook.github.io/create-react-app/docs/getting-started)
-* [**React**](https://reactjs.org/)
-* Component Library
-  * [Material-UI](https://github.com/mui-org/material-ui)
-  * [Material UI Icons](https://material.io/tools/icons/?style=baseline)
-  * [@mdi Icons](https://materialdesignicons.com/) for community expansions
-  * [React-Markdown](https://github.com/rexxars/react-markdown)
+* [**Create React App**](https://facebook.github.io/create-react-app/docs/getting-started) - bootstrapped project with community defaults & setup dev environment
+* [**React**](https://reactjs.org/) - web component library
+* [Material-UI](https://github.com/mui-org/material-ui) component library
+* [Material UI Icons](https://material.io/tools/icons/?style=baseline) default icons
+* [@mdi Icons](https://materialdesignicons.com/) for community expansions
+* [React-Markdown](https://github.com/rexxars/react-markdown) - converts markdown to react to html
+* [React-helmet](https://github.com/nfl/react-helmet) - emebeds `<title>` and `<meta>` tags into `<head>` element
 
 ## Getting Started
 
@@ -124,3 +124,7 @@ Here are some of the helpful resources used, at some point, in the development a
 * [Pre- Post- script hooks](https://medium.com/yld-engineering-blog/using-npm-pre-and-post-hooks-d89dcf2d86cf)
 * [fatal: A branch named 'gh-pages' already exists](https://github.com/transitive-bullshit/react-modern-library-boilerplate/issues/15#issuecomment-372165120)
 * [Homepage of "." fails in latest version](https://github.com/geelen/react-snapshot/issues/31)
+
+### Meta Tags
+
+* [https://metatags.io/]
