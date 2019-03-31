@@ -54,12 +54,12 @@ npm run build
 * [x] Add full width navbar
 * [x] Add all documents - render paths based on name
 * [x] Style generated markdown with Material UI themes
-* [ ] Animated route transitions
-* [ ] Scroll to top after navigation
+* [x] Scroll to top after navigation
+  * [ ] Animated route transitions
 * [x] deploy to gh-pages
-* [ ] add helmet tags
+* [x] add helmet tags
 * [ ] add sessions / speakers from past years
-* [ ] render markdown on build w/o fetch
+* [ ] render markdown on build w/o fetch (might have to eject)
 
 ## Resources
 

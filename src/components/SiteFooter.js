@@ -53,6 +53,9 @@ class SiteFooter extends Component {
                         <li>
                             <Link component={RouterLink} to="/sponsor/">Sponsor</Link>
                         </li>
+                        <li>
+                            <Link component={RouterLink} to="/community/">Community</Link>
+                        </li>
                     </ul>
                     <ul className={this.props.classes.unstyledList}>
                         <li>

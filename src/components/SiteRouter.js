@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 
 import HomePage from '../pages/HomePage'
 import MarkdownRouter from "../pages/MarkdownRouter";
-
+import CommunityPage from '../pages/CommunityPage'
 
 class SiteRouter extends Component {
 
@@ -11,6 +11,7 @@ class SiteRouter extends Component {
         return (
             <>
                 <Route path="/" exact component={HomePage} />
+                <Route path="/community/" component={CommunityPage} />
                 <Route path="/conduct/" render={(props) => <MarkdownRouter {...props} page='conduct' />} />
                 <Route path="/diversity/" render={(props) => <MarkdownRouter {...props} page='diversity' />} />
                 <Route path="/parking/" render={(props) => <MarkdownRouter {...props} page='parking' />} />
