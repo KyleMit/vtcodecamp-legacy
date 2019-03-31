@@ -114,6 +114,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * [Github - mdi](https://github.com/Templarian/MaterialDesign)
 * [Github - mdi react](https://github.com/Templarian/MaterialDesign-React)
 
+### Pre-Rendering
+
+[Pre-Rendering into Static HTML Files](https://facebook.github.io/create-react-app/docs/pre-rendering-into-static-html-files)
+[An almost static site](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319)
+[Pre-rendering with React-snap](https://itnext.io/pre-rendering-your-react-application-with-react-snap-234e2408ed39)
+
 ## Todo
 
 * [ ] Add yellow / blue custom theme colors

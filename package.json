@@ -14,11 +14,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-snapshot",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public -o build_stories"
+    "build-storybook": "build-storybook -s public -o build_stories",
+    "start-build": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,6 +37,7 @@
     "@storybook/addon-notes": "^5.0.1",
     "@storybook/addons": "^5.0.1",
     "@storybook/react": "^5.0.1",
-    "babel-loader": "^8.0.5"
+    "babel-loader": "^8.0.5",
+    "react-snapshot": "^1.3.0"
   }
 }
