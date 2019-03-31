@@ -2,6 +2,7 @@
   "name": "vtcode",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vtcodecamp.github.io/vtcodecamp-legacy",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
@@ -14,12 +15,15 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "build": "react-scripts build",
+    "postbuild": "react-snapshot",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public -o build_stories",
-    "start-build": "serve -s build"
+    "start-build": "serve -s build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +42,7 @@
     "@storybook/addons": "^5.0.1",
     "@storybook/react": "^5.0.1",
     "babel-loader": "^8.0.5",
+    "gh-pages": "^2.0.1",
     "react-snapshot": "^1.3.0"
   }
 }

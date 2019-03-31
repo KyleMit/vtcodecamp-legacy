@@ -120,12 +120,22 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 [An almost static site](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319)
 [Pre-rendering with React-snap](https://itnext.io/pre-rendering-your-react-application-with-react-snap-234e2408ed39)
 
+### Deploying
+
+* [Deploy to gh-pages](https://facebook.github.io/create-react-app/docs/deployment#github-pages-https-pagesgithubcom)
+* [Pre- Post- script hooks](https://medium.com/yld-engineering-blog/using-npm-pre-and-post-hooks-d89dcf2d86cf)
+
 ## Todo
 
 * [ ] Add yellow / blue custom theme colors
-* [ ] Separate out routes
-* [ ] Add fixed footer
-* [ ] Add full width navbar
-* [ ] Add all documents - render paths based on name
-* [ ] Style generated markdown with Material UI themes
+* [x] Separate out routes
+* [x] Add fixed footer
+  * [ ] Switcher footer to dark
+* [x] Add full width navbar
+* [x] Add all documents - render paths based on name
+* [x] Style generated markdown with Material UI themes
 * [ ] Animated route transitions
+* [ ] Scroll to top after navigation
+* [x] deploy to gh-pages
+* [ ] add helmet tags
+* [ ] add sessions / speakers from past years
