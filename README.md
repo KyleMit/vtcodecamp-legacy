@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### https://vtcodecamp.netlify.com/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/82570149-0466-4709-a879-c876f87d9381/deploy-status)](https://app.netlify.com/sites/vtcodecamp/deploys)
+
 ## Project Creation
 
 ```bash
@@ -141,3 +145,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * [x] deploy to gh-pages
 * [ ] add helmet tags
 * [ ] add sessions / speakers from past years
+* [ ] render markdown on build w/o fetch
