@@ -1,64 +1,50 @@
 import React, { Component } from 'react';
 import './App.css';
-import HomePage from './pages/HomePage'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import SiteNavBar from './components/SiteNavBar';
 import SiteFooter from './components/SiteFooter';
 import { withStyles } from '@material-ui/core';
-import MarkdownRouter from "./pages/MarkdownRouter";
+import SiteRouter from './components/SiteRouter';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 
-const styles = theme => ({ 
+const styles = theme => {
+  console.log(theme)
+  return ({
   content: {
     marginTop: `${theme.spacing.unit * 8}px`,
   },
-});
+  app: {
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      height: '100vh'
+  }
+})
+
+};
 
 class App extends Component {
 
 
   render() {
     return (
-      <div className="App">
+      <div id="app" className={this.props.classes.app}>
+        <CssBaseline />
+        <Router>
 
-      <Router>
-        <SiteNavBar />
+          <SiteNavBar />
 
-        <main className={this.props.classes.content}>
+          <main className={this.props.classes.content}>
 
-        
+            <SiteRouter />
 
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/conduct/">Conduct</Link>
-              </li>
-              <li>
-                <Link to="/diversity/">Diversity</Link>
-              </li>
-              <li>
-                <Link to="/parking/">Parking</Link>
-              </li>
-              <li>
-                <Link to="/sponsor/">Sponsor</Link>
-              </li>
-            </ul>
-          </nav>
-
-          <Route path="/" exact component={HomePage} />
-          <Route path="/conduct/" render={(props) => <MarkdownRouter {...props} page='conduct' />} />
-          <Route path="/diversity/" render={(props) => <MarkdownRouter {...props} page='diversity' />} />
-          <Route path="/parking/" render={(props) => <MarkdownRouter {...props} page='parking' />} />
-          <Route path="/sponsor/" render={(props) => <MarkdownRouter {...props} page='sponsor' />} />
           </main>
 
-          <SiteFooter />
-      </Router>
+          <SiteFooter className={this.props.classes.footer} />
+        </Router>
 
- 
+
       </div>
     );
   }

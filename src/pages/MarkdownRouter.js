@@ -21,7 +21,7 @@ const MarkdownRouter = (props) => {
 MarkdownRouter.propTypes = {
     page: PropTypes.oneOf([
         'conduct', 'diversity', 'parking', 'sponsor'
-    ])
+    ]).isRequired
 }
 
 export default MarkdownRouter

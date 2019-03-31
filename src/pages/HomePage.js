@@ -6,8 +6,6 @@ import PlaceIcon from '@material-ui/icons/Place'
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
-import { withStyles } from '@material-ui/core/styles';
-
 class HomePage extends Component {
     render() {
         return (
@@ -30,7 +28,7 @@ class HomePage extends Component {
 
 
                         <Button variant="contained" color="primary"
-                            target="_blank"
+                            target="_blank" rel="noopener"
                             href="https://www.meetup.com/VTCode/events/">
                             Sign Up On Meetup
                         </Button>

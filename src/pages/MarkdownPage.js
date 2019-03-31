@@ -24,6 +24,14 @@ const options = {
         </li>
       )),
     },
+    img: {
+        component: props => {
+            console.log("img", props)
+            const {src, alt} = props;
+            //const localPath = require(src)
+            return <img src={src} alt={alt} />
+        }
+    }
   },
 };
 
