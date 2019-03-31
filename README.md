@@ -87,6 +87,10 @@ Here are some of the helpful resources used, at some point, in the development a
 * [Using the public folder](https://facebook.github.io/create-react-app/docs/using-the-public-folder)
 * [Icons - SVG instead of Fonts](https://github.blog/2016-02-22-delivering-octicons-with-svg/)
 
+### React Router
+
+* [Scroll Restoration](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/guides/scroll-restoration.md)
+* [react-router scroll to top on every transition](https://stackoverflow.com/q/36904185/1366033)
 
 ### React MUI
 

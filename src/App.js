@@ -6,7 +6,7 @@ import SiteFooter from './components/SiteFooter';
 import { withStyles } from '@material-ui/core';
 import SiteRouter from './components/SiteRouter';
 import CssBaseline from '@material-ui/core/CssBaseline';
-
+import ScrollToTop from './utilities/ScrollToTop'
 
 const styles = theme => {
   console.log(theme)
@@ -33,16 +33,18 @@ class App extends Component {
         <CssBaseline />
         <SiteHead />
         <Router>
+          <ScrollToTop>
+          
+              <SiteNavBar />
 
-          <SiteNavBar />
+              <main className={this.props.classes.content}>
 
-          <main className={this.props.classes.content}>
+                <SiteRouter />
 
-            <SiteRouter />
+              </main>
 
-          </main>
-
-          <SiteFooter className={this.props.classes.footer} />
+              <SiteFooter className={this.props.classes.footer} />
+            </ScrollToTop>
         </Router>
 
 
