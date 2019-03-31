@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 npx create-react-app
 npm install @material-ui/core
 npm install @material-ui/icons
+npm install @mdi/js
 ```
 
 ## Libraries
@@ -95,6 +96,22 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * [Markdown Blog example](https://github.com/mui-org/material-ui/blob/v3.9.2/docs/src/pages/getting-started/page-layout-examples/blog/Markdown.js)
 * [React Markdown Renderers](https://github.com/rexxars/react-markdown/issues/82#issuecomment-316110533)
 * [Pass props to a component rendered by React Router](https://tylermcginnis.com/react-router-pass-props-to-components/)
+* [React tips — Validating Props with `PropTypes.oneOf`](https://medium.com/@leonardobrunolima/react-tips-validating-props-with-proptypes-24c64d58f4c0)
+* [Adding Images, Fonts, and Files](https://facebook.github.io/create-react-app/docs/adding-images-fonts-and-files)
+* [Can't import image from src](https://github.com/facebook/create-react-app/issues/585)
+* [Add support for public/ folder](https://github.com/facebook/create-react-app/pull/703)
+* [Using the public folder](https://facebook.github.io/create-react-app/docs/using-the-public-folder)
+* [Icons - SVG instead of Fonts](https://github.blog/2016-02-22-delivering-octicons-with-svg/)
+* [Removing Jank](http://jankfree.org/)
+
+### Mui Components
+
+* [CSS Baseline](https://material-ui.com/style/css-baseline/)
+
+### Material Design Icons Extensions
+
+* [Github - mdi](https://github.com/Templarian/MaterialDesign)
+* [Github - mdi react](https://github.com/Templarian/MaterialDesign-React)
 
 ## Todo
 
@@ -104,3 +121,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * [ ] Add full width navbar
 * [ ] Add all documents - render paths based on name
 * [ ] Style generated markdown with Material UI themes
+* [ ] Animated route transitions
