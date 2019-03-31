@@ -12,7 +12,8 @@ const styles = theme => {
   console.log(theme)
   return ({
   content: {
-    marginTop: `${theme.spacing.unit * 8}px`,
+    margin: `${theme.spacing.unit * 3}px`,
+    marginTop: `${theme.spacing.unit * 11}px`,
   },
   app: {
       display: 'flex',
