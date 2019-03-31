@@ -103,6 +103,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * [Using the public folder](https://facebook.github.io/create-react-app/docs/using-the-public-folder)
 * [Icons - SVG instead of Fonts](https://github.blog/2016-02-22-delivering-octicons-with-svg/)
 * [Removing Jank](http://jankfree.org/)
+* [VS - React Extension Pack](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack)
 
 ### Mui Components
 
