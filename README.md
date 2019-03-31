@@ -124,6 +124,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 * [Deploy to gh-pages](https://facebook.github.io/create-react-app/docs/deployment#github-pages-https-pagesgithubcom)
 * [Pre- Post- script hooks](https://medium.com/yld-engineering-blog/using-npm-pre-and-post-hooks-d89dcf2d86cf)
+* [fatal: A branch named 'gh-pages' already exists](https://github.com/transitive-bullshit/react-modern-library-boilerplate/issues/15#issuecomment-372165120)
+* [Homepage of "." fails in latest version](https://github.com/geelen/react-snapshot/issues/31)
 
 ## Todo
 
