@@ -1,7 +1,6 @@
 # VT Code Camp
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/82570149-0466-4709-a879-c876f87d9381/deploy-status)](https://app.netlify.com/sites/vtcodecamp/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cc0bd8d8-26c8-47d7-bb64-ad0f218c0c99/deploy-status)](https://app.netlify.com/sites/vtcode-react/deploys)
 
 
 #### https://vtcodecamp.netlify.com/
